@@ -1,0 +1,1 @@
+Feature: Other funny feature
