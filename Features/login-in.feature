@@ -13,6 +13,7 @@ Feature: Login in
     When as
     Then tr
 
+  @TM-1 @OPEN
   Scenario: scenario_2
     Given wp.pl openned
     When correct credentials are filled
