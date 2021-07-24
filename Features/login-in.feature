@@ -7,13 +7,13 @@ Feature: Login in
     When as
     Then tr
 
-  @MANUAL @TM-1 @OPEN
+  @MANUAL @TM-1 @WIP
   Scenario: scenario_1
     Given ms
     When as
     Then tr
 
-  @TM-1 @OPEN
+  @TM-1 @WIP
   Scenario: scenario_2
     Given wp.pl openned
     When correct credentials are filled
