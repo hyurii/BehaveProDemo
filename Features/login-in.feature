@@ -7,12 +7,12 @@ Feature: Login in
     When as
     Then tr
 
+  @MANUAL
   Scenario: scenario_1
     Given ms
     When as
     Then tr
 
-  @ORPHAN
   Scenario: scenario_2
     Given wp.pl openned
     When correct credentials are filled
