@@ -7,7 +7,7 @@ Feature: Login in
     When as
     Then tr
 
-  @TM-1 @COMPLETED
+  @TM-1 @MANUAL @COMPLETED
   Scenario: scenario_1
     Given ms
     When as
